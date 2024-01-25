@@ -45,13 +45,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Module\Components\ltg-date-range-picker\ltg-date-range-picker.ts" />
+    <TypeScriptCompile Include="Module\Components\ltg-slide-to-unlock\ltg-slide-to-unlock.ts" />
     <TypeScriptCompile Include="Module\module.ts" />
-    <TypeScriptCompile Include="Module\Services\DateRangeService.ts" />
+    <TypeScriptCompile Include="Module\Services\SlideToUnlockService.ts" />
     <TypeScriptCompile Include="webpack.config.ts" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Module\Components\ltg-date-range-picker\ltg-date-range-picker.html" />
+    <Content Include="Module\Components\ltg-slide-to-unlock\ltg-slide-to-unlock.html" />
     <Content Include="Module\module.css" />
   </ItemGroup>
   <ItemGroup>
