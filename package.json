@@ -1,0 +1,30 @@
+{
+  "name": "labtagon-techlabdemo",
+  "version": "1.0.0",
+  "description": "",
+  "build": "webpack",
+  "author": {
+    "name": "Labtagon GmbH"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.ts --no-color",
+    "watch": "webpack --watch --progress --config webpack.config.ts"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@labtagon/matrix42-workspace-management-types": "^1.0.39",
+    "@types/angular": "^1.8.1",
+    "@types/angular-material": "^1.1.72",
+    "@types/lodash": "^4.14.194",
+    "copy-webpack-output-plugin": "^1.0.0",
+    "css-loader": "^6.9.1",
+    "eslint": "^8.56.0",
+    "ng-cache-loader": "^0.0.26",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^8.0.17",
+    "ts-node": "^9.1.1",
+    "typescript": "^5.0.4",
+    "webpack": "5.62.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

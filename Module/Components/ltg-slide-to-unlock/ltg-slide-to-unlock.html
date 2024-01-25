@@ -1,0 +1,8 @@
+﻿<md-slider 
+    min="0" 
+    max="100" 
+    ng-model="vm.sliderValue" 
+    ng-mouseup="vm.validate($event)" 
+    ng-class="{'md-warn' : !vm.unlocked}"
+    >
+</md-slider>
